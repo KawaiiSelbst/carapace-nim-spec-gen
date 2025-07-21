@@ -244,5 +244,15 @@ commands:
     positional("")
   )
 
-let file = "./specs/nim.yaml"
-writeFile(file, spec)
+import os
+
+const
+  dirPath = "spec"
+  filePath = dirPath / "nim.yaml"
+
+if not dirExists(dirPath):
+  createDir(dirPath)
+
+# Проверяем файл
+if not fileExists(filePath):
+  writeFile(filePath, spec)
