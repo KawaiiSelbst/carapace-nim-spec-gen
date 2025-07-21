@@ -151,7 +151,7 @@ let nativeOpts = (flags:
       --debugger=: native[use native debugger (gdb)]
       --app=: generate this type of app (lib=dynamic) (console gui lib staticlib)
       --cpu=: target architecture (alpha amd64 arm arm64 avr e2k esp hppa i386 ia64 js loongarch64 m68k mips mipsel mips64 mips64el msp430 nimvm powerpc powerpc64 powerpc64el riscv32 riscv64 sparc sparc64 vm wasm32)
-      --gc=: memory management algorithm to use (default refc) (refc arc orc markAndSweep boehm go regions none)
+      --mm=: memory management algorithm to use (default refc) (refc arc orc markAndSweep boehm go regions none)
       --os=: operating system to compile for (AIX Amiga Android Any Atari DOS DragonFly FreeBSD FreeRTOS Genode Haiku iOS Irix JS Linux MacOS MacOSX MorphOS NetBSD Netware NimVM NintendoSwitch OS2 OpenBSD PalmOS Standalone QNX SkyOS Solaris VxWorks Windows)
       --panics=: turn panics into process termination (default off) (off on)
 """,
