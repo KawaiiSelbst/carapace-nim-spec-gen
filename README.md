@@ -1,4 +1,4 @@
-Rough autocomplete generator for [carapace](https://github.com/carapace-sh/carapace)
+Rough [Nim](https://nim-lang.org/) compiler autocomplete generator for [carapace](https://github.com/carapace-sh/carapace)
 
 ## Usage
 
